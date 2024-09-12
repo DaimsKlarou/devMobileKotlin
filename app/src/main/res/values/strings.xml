@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">tp1_dev_mobile</string>
+    <string name="to">to</string>
+    <string name="subject">subject\n</string>
+    <string name="message">message</string>
+    <string name="send">send</string>
+    <string name="Annuler">Annuler</string>
+    <string name="Valider">Valider</string>
+    <string name="Prenoms">Prenoms</string>
+    <string name="Name">Name</string>
 </resources>
