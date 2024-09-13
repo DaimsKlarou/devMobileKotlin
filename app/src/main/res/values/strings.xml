@@ -8,4 +8,7 @@
     <string name="Valider">Valider</string>
     <string name="Prenoms">Prenoms</string>
     <string name="Name">Name</string>
+    <string name="SAISIEM2">SAISIE M2</string>
+    <string name="prenoms">Prenoms:</string>
+    <string name="Nom">Nom :</string>
 </resources>
