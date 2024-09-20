@@ -21,12 +21,12 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
 
-
         // Initialiser les champs
         btnValider = findViewById(R.id.btnValider)
         btnAnnuler = findViewById(R.id.btnAnnuler)
         prenoms = findViewById(R.id.Prenoms)
         nameField = findViewById(R.id.Name)
+
 
         //Ajout du logo sur le haut de l'application
         val imageView = findViewById<ImageView>(R.id.imageView)
@@ -34,7 +34,13 @@ class MainActivity : ComponentActivity() {
 
         // Configurer les écouteurs de clic
         btnEvent()
+    }
 
+    private fun homeView(name: String, prenoms: String) {
+        val intentToHomeActivity = Intent(this, HomeActivity::class.java)
+        intentToHomeActivity.putExtra("name", name)
+        intentToHomeActivity.putExtra("prenoms", prenoms)
+        startActivity(intentToHomeActivity)
     }
 
     // Récupérer les données entrées dans le formulaire
@@ -48,19 +54,12 @@ class MainActivity : ComponentActivity() {
 
     // Vérifier les données entrées et valider
     private fun validateInputs(name: String, prenoms: String): Boolean {
-        return name.isNotEmpty() && prenoms.isNotEmpty()
+        return name.trim().isNotEmpty() && prenoms.trim().isNotEmpty()
     }
 
     // Afficher les données dans une boîte de dialogue
     private fun showDialog(name: String, firstName: String) {
-        AlertDialog.Builder(this)
-            .setTitle("Données saisies")
-            .setMessage("Nom : $name\nPrénom : $firstName")
-            .setPositiveButton("OK") { dialog, _ ->
-                dialog.dismiss()
-            }
-            .create()
-            .show()
+        homeView(name, firstName)
     }
 
     // Réinitialiser les zones de saisie
@@ -71,7 +70,7 @@ class MainActivity : ComponentActivity() {
 
     // Gérer les erreurs
     private fun showErrorMessage() {
-        Toast.makeText(this, "Veuillez remplir tous les champs", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, "Veuillez remplir tous les champs", Toast.LENGTH_LONG).show()
     }
 
     // Gérer les événements du clic pour le bouton Valider
@@ -81,8 +80,6 @@ class MainActivity : ComponentActivity() {
 
         if (validateInputs(name, firstName)) {
             showDialog(name, firstName)
-//            val intentToHomeActivity = Intent(this, HomeActivity::class.java)
-//            startActivity(intentToHomeActivity) // Lance la nouvelle activité
             onCancelButtonClick()
         } else {
             showErrorMessage()
@@ -103,4 +100,5 @@ class MainActivity : ComponentActivity() {
             onCancelButtonClick()
         }
     }
+
 }

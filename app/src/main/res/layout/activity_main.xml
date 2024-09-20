@@ -26,7 +26,7 @@
         android:text="@string/SAISIEM2"
         android:textColor="@color/black"
         android:textSize="40sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"/>
 
     <TextView
         android:id="@+id/textView5"
@@ -34,7 +34,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:fontFamily="@font/playpensansextrabold"
-        android:text="Bienvenue en au cours de Developpement Mobile"
+        android:text="Bienvenue au cours de Developpement Mobile"
         android:layout_marginBottom="65sp"
         android:gravity="center"
         android:textStyle="italic"

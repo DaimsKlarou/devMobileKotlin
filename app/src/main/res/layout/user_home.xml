@@ -7,15 +7,50 @@
     android:gravity="center"
     android:orientation="vertical"
     android:paddingLeft="16dp"
-    android:paddingRight="16dp">
+    android:paddingRight="16dp"
+    >
+
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/TextHello"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="170sp"
         android:fontFamily="@font/playpensanssemibold"
         android:gravity="center_horizontal"
-        android:text="Bienvenue sur l'espace votre espace etudiant personnel"
-        android:textSize="20sp"/>
+        android:text="Bienvenue sur votre espace etudiant personnel"
+        android:textColor="@color/gray_dark_800"
+        android:textSize="20sp"
+        android:layout_marginTop="90sp"/>
 
-    </LinearLayout>
+    <Button
+        android:id="@+id/btn_conversion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25sp"
+        android:background="@drawable/btn_hover"
+        android:fontFamily="@font/playpensanssemibold"
+        android:text="Conversion"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btn_historique"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25sp"
+        android:background="@drawable/btn_hover"
+        android:fontFamily="@font/playpensanssemibold"
+        android:text="Historique"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btn_retour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Retour"
+        android:background="@drawable/btn_hover"
+        android:textColor="@color/white"
+        android:fontFamily="@font/playpensanssemibold"
+        />
+
+</LinearLayout>

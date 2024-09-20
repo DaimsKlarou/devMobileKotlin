@@ -23,6 +23,24 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".HomeActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Tp1_dev_mobile">
+        </activity>
+
+        <activity
+            android:name=".Conversion"
+            android:exported="true"
+            android:theme="@style/Theme.Tp1_dev_mobile">
+        </activity>
+
+        <activity
+            android:name=".Historique"
+            android:exported="true"
+            android:theme="@style/Theme.Tp1_dev_mobile">
+        </activity>
     </application>
 
 </manifest>
