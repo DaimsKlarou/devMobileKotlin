@@ -7,4 +7,160 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    
+    <!-- ensemble des couleurs bleu avec les tons -->
+    <color name="bleu_100">#EBF5FB</color>
+    <color name="bleu_200">#D6EAF8</color>
+    <color name="bleu_300">#AED6F1</color>
+    <color name="bleu_400">#5DADE2</color>
+    <color name="bleu_500">#3498DB</color>
+    <color name="bleu_600">#2e86c1</color>
+    <color name="bleu_700">#2874A6</color>
+    <color name="bleu_800">#21618c</color>
+    <color name="bleu_900">#1B4F72</color>
+
+    <!-- ensemble des couleurs bleu sombres avec les tons -->
+    <color name="bleu_dark_100">#D4E6F1</color>
+    <color name="bleu_dark_200">#A9CCE3</color>
+    <color name="bleu_dark_300">#7FB3D5</color>
+    <color name="bleu_dark_400">#5499C7</color>
+    <color name="bleu_dark_500">#2980B9</color>
+    <color name="bleu_dark_600">#2471A3</color>
+    <color name="bleu_dark_700">#1F618D</color>
+    <color name="bleu_dark_800">#1A5276</color>
+    <color name="bleu_dark_900">#154360</color>
+
+    <!-- ensemble des couleurs gris claires avec les tons -->
+    <color name="gray_light_100">#F8F9F9</color>
+    <color name="gray_light_200">#F2F3F4</color>
+    <color name="gray_light_300">#E5E7E9</color>
+    <color name="gray_light_400">#D7DBDD</color>
+    <color name="gray_light_500">#CACFD2</color>
+    <color name="gray_light_600">#BDC3C7</color>
+    <color name="gray_light_700">#A6ACAF</color>
+    <color name="gray_light_800">#797D7F</color>
+    <color name="gray_light_900">#626567</color>
+
+    <!-- ensemble des couleurs gris avec les tons -->
+    <color name="gray_100">#EAEDED</color>
+    <color name="gray_200">#D5DBDB</color>
+    <color name="gray_300">#BFC9CA</color>
+    <color name="gray_400">#AAB7B8</color>
+    <color name="gray_500">#95A5A6</color>
+    <color name="gray_600">#839192</color>
+    <color name="gray_700">#717D7E</color>
+    <color name="gray_800">#5F6A6A</color>
+    <color name="gray_900">#4D5656</color>
+
+    <!-- ensemble des couleurs gris sombre avec les tons -->
+    <color name="gray_dark_100">#D5D8DC</color>
+    <color name="gray_dark_200">#ABB2B9</color>
+    <color name="gray_dark_300">#808B96</color>
+    <color name="gray_dark_400">#566573</color>
+    <color name="gray_dark_500">#2C3E50</color>
+    <color name="gray_dark_600">#273746</color>
+    <color name="gray_dark_700">#212F3D</color>
+    <color name="gray_dark_800">#1C2833</color>
+    <color name="gray_dark_900">#17202A</color>
+
+
+    <!-- ensemble des couleurs rouges avec les tons -->
+    <color name="red_100">#FADBD8</color>
+    <color name="red_200">#F5B7B1</color>
+    <color name="red_300">#F1948A</color>
+    <color name="red_400">#EC7063</color>
+    <color name="red_500">#E74C3C</color>
+    <color name="red_600">#CB4335</color>
+    <color name="red_700">#B03A2E</color>
+    <color name="red_800">#943126</color>
+    <color name="red_900">#78281F</color>
+
+    <!-- ensemble des couleurs rouges sombres avec les tons -->
+    <color name="red_dark_100">#F2D7D5</color>
+    <color name="red_dark_200">#E6B0AA</color>
+    <color name="red_dark_300">#D98880</color>
+    <color name="red_dark_400">#CD6155</color>
+    <color name="red_dark_500">#C0392B</color>
+    <color name="red_dark_600">#A93226</color>
+    <color name="red_dark_700">#922B21</color>
+    <color name="red_dark_800">#7B241C</color>
+    <color name="red_dark_900">#641E16</color>
+
+    <!-- ensemble des couleurs verts claires avec les tons -->
+    <color name="green_light_100">#D5F5E3</color>
+    <color name="green_light_200">#ABEBC6</color>
+    <color name="green_light_300">#82E0AA</color>
+    <color name="green_light_400">#58D68D</color>
+    <color name="green_light_500">#2ECC71</color>
+    <color name="green_light_600">#28B463</color>
+    <color name="green_light_700">#239B56</color>
+    <color name="green_light_800">#1D8348</color>
+    <color name="green_light_900">#186A3B</color>
+
+    <!-- ensemble des couleurs verts avec les tons -->
+    <color name="green_100">#D4EFDF</color>
+    <color name="green_200">#A9DFBF</color>
+    <color name="green_300">#7DCEA0</color>
+    <color name="green_400">#52BE80</color>
+    <color name="green_500">#27AE60</color>
+    <color name="green_600">#229954</color>
+    <color name="green_700">#1E8449</color>
+    <color name="green_800">#1E8449</color>
+    <color name="green_900">#145A32</color>
+
+    <!-- ensemble des couleurs verts sombres avec les tons -->
+    <color name="green_dark_100">#D0ECE7</color>
+    <color name="green_dark_200">#73C6B6</color>
+    <color name="green_dark_300">#73C6B6</color>
+    <color name="green_dark_400">#45B39D</color>
+    <color name="green_dark_500">#16A085</color>
+    <color name="green_dark_600">#138D75</color>
+    <color name="green_dark_700">#117A65</color>
+    <color name="green_dark_800">#0E6655</color>
+    <color name="green_dark_900">#0B5345</color>
+
+    <!-- ensemble des couleurs orange avec les tons -->
+    <color name="orange_100">#FAE5D3</color>
+    <color name="orange_200">#F5CBA7</color>
+    <color name="orange_300">#F0B27A</color>
+    <color name="orange_400">#EB984E</color>
+    <color name="orange_500">#E67E22</color>
+    <color name="orange_600">#CA6F1E</color>
+    <color name="orange_700">#AF601A</color>
+    <color name="orange_800">#935116</color>
+    <color name="orange_900">#784212</color>
+
+    <!-- ensemble des couleurs orange sombre avec les tons -->
+    <color name="orange_dark_100">#F6DDCC</color>
+    <color name="orange_dark_200">#EDBB99</color>
+    <color name="orange_dark_300">#E59866</color>
+    <color name="orange_dark_400">#DC7633</color>
+    <color name="orange_dark_500">#D35400</color>
+    <color name="orange_dark_600">#BA4A00</color>
+    <color name="orange_dark_700">#A04000</color>
+    <color name="orange_dark_800">#873600</color>
+    <color name="orange_dark_900">#6E2C00</color>
+
+    <!-- ensemble des couleurs orange claire avec les tons -->
+    <color name="orange_light_100">#FDEBD0</color>
+    <color name="orange_light_200">#FAD7A0</color>
+    <color name="orange_light_300">#F8C471</color>
+    <color name="orange_light_400">#F5B041</color>
+    <color name="orange_light_500">#F39C12</color>
+    <color name="orange_light_600">#D68910</color>
+    <color name="orange_light_700">#B9770E</color>
+    <color name="orange_light_800">#9C640C</color>
+    <color name="orange_light_900">#7E5109</color>
+
+    <!-- ensemble des couleurs jaunes avec les tons -->
+    <color name="yellow_100">#FCF3CF</color>
+    <color name="yellow_200">#F9E79F</color>
+    <color name="yellow_300">#F7DC6F</color>
+    <color name="yellow_400">#F4D03F</color>
+    <color name="yellow_500">#F1C40F</color>
+    <color name="yellow_600">#D4AC0D</color>
+    <color name="yellow_700">#B7950B</color>
+    <color name="yellow_800">#9A7D0A</color>
+    <color name="yellow_900">#7D6608</color>
+
 </resources>
