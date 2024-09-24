@@ -1,6 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/bleu_400"
+        android:paddingTop="15sp"
+        >
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="60sp"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:contentDescription="Btn retour"
+            android:contextClickable="true"
+            android:focusable="true"
+            android:onClick="btnRetour"
+            app:srcCompat="@drawable/ic_history_32"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Historique"
+            android:fontFamily="@font/playpensansregular"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            tools:ignore="HardcodedText"
+            />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listPost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:entries="@array/historique_post"
+        />
 </LinearLayout>

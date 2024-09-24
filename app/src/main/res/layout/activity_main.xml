@@ -7,15 +7,17 @@
     android:gravity="center"
     android:orientation="vertical"
     android:paddingLeft="16dp"
-    android:paddingRight="16dp">
+    android:paddingRight="16dp"
+    tools:context=".MainActivity"
+    android:background="@color/white"
+    >
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
-        android:layout_height="100sp"
+        android:layout_height="100dp"
         android:contentDescription="Logo"
-        app:srcCompat="@drawable/logo"
-        android:layout_marginBottom="10sp"/>
+        app:srcCompat="@drawable/dernier_logo_removebg" />
 
     <TextView
         android:id="@+id/textView2"
@@ -48,8 +50,9 @@
 
         <TextView
             android:id="@+id/textView"
-            android:layout_width="84dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_weight="3"
             android:layout_marginBottom="15dp"
             android:text="@string/Nom"
             android:textSize="18sp"
@@ -59,19 +62,18 @@
 
         <EditText
             android:id="@+id/Name"
-            android:layout_width="277dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:layout_marginBottom="15dp"
             android:background="@drawable/border_btn"
             android:importantForAutofill="no"
-            android:inputType="textLongMessage"
+            android:inputType="text"
             android:textSize="16dp"
-            tools:ignore="LabelFor"
-            android:hint="Entrez votre nom"
+            android:hint="Entrez votre nom svp!"
             android:fontFamily="@font/playpensansregular"
             android:padding="10sp"
         />
-
     </LinearLayout>
 
     <LinearLayout
@@ -82,8 +84,9 @@
 
         <TextView
             android:id="@+id/textView3"
-            android:layout_width="84dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_weight="3"
             android:layout_marginBottom="15dp"
             android:text="@string/prenoms"
             android:textSize="18sp"
@@ -93,15 +96,16 @@
 
         <EditText
             android:id="@+id/Prenoms"
-            android:layout_width="277dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:layout_marginBottom="15dp"
             android:background="@drawable/border_btn"
             android:importantForAutofill="no"
             android:inputType="textLongMessage"
             android:textSize="16sp"
             tools:ignore="LabelFor"
-            android:hint="Entrez votre prénom"
+            android:hint="Entrez votre prénom svp!"
             android:fontFamily="@font/playpensansregular"
             android:padding="10sp"
             />
@@ -112,7 +116,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:paddingHorizontal="40dp"
         android:layout_marginTop="20dp"
         android:gravity="center"
     >
@@ -120,7 +123,7 @@
         <Button
             android:id="@+id/btnAnnuler"
             style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="125dp"
+            android:layout_width="115dp"
             android:layout_height="wrap_content"
             android:layout_marginEnd="35dp"
             android:background="@drawable/btn_hover"
@@ -132,7 +135,7 @@
         <Button
             android:id="@+id/btnValider"
             style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="125dp"
+            android:layout_width="115dp"
             android:layout_height="wrap_content"
             android:background="@drawable/btn_hover"
             android:text="@string/Valider"

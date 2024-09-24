@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">tp1_dev_mobile</string>
+    <string name="app_name">Master 2 SIGL</string>
     <string name="to">to</string>
     <string name="subject">subject\n</string>
     <string name="message">message</string>
@@ -11,4 +11,14 @@
     <string name="SAISIEM2">SAISIE M2</string>
     <string name="prenoms">Prenoms:</string>
     <string name="Nom">Nom :</string>
+    <string name="profession">Profession</string>
+
+    <string-array name="historique_post">
+        <item>post 1</item>
+        <item>post 2</item>
+        <item>post 3</item>
+        <item>post 4n</item>
+        <item>post 5</item>
+        <item>post 6</item>
+    </string-array>
 </resources>

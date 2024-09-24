@@ -1,60 +1,89 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <TextView
-        android:id="@+id/title"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="73dp"
-        android:text="Convertisseur"
-        android:fontFamily="@font/playpensansregular"
-        android:textSize="32sp"
-        android:background="@color/bleu_dark_900"
-        android:textStyle="bold"
-        android:textColor="@color/white"
-        android:paddingStart="15dp"
-        android:gravity="center"
-        />
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/bleu_400"
+        android:paddingTop="15sp"
+        >
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="60sp"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:contentDescription="Btn retour"
+            android:contextClickable="true"
+            android:onClick="btnRetour"
+            app:srcCompat="@drawable/ic_arrow_32"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Convertisseur"
+            android:fontFamily="@font/playpensansregular"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            tools:ignore="HardcodedText"
+            />
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:gravity="center"
-        android:background="@color/bleu_800">
+        android:background="@color/white">
 
         <TextView
             android:id="@+id/textView6"
             android:layout_width="match_parent"
             android:layout_height="83dp"
-            android:layout_marginBottom="75sp"
-            android:fontFamily="@font/playpensanslight"
+            android:fontFamily="@font/playpensansregular"
             android:gravity="center"
-            android:padding="15sp"
             android:text="Conversion de devises"
-            android:textColor="@color/white"
-            android:textSize="18sp" />
+            android:textColor="@color/gray_dark_600"
+            android:textSize="25dp"
+            tools:ignore="HardcodedText"
+            android:textStyle="bold"/>
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/loginImage"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/logo_conversion_without_bg"
+            android:layout_gravity="center" />
 
         <EditText
             android:id="@+id/zoneTexte"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:autofillHints="name"
             android:ems="10"
-            android:inputType="text"
+            android:inputType="number"
             android:hint="entrer le montant"
             android:background="@drawable/border_btn"
-            android:padding="20sp"
             android:layout_margin="25sp"
-            android:backgroundTint="@color/gray_300"
-
+            android:backgroundTint="@color/gray_100"
+            android:fontFamily="@font/playpensansregular"
+            tools:ignore="HardcodedText"
+            android:padding="10sp"
             />
 
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="124dp"
-            android:layout_marginHorizontal="15sp"
+            android:layout_marginHorizontal="35sp"
             >
 
             <RadioButton
@@ -62,8 +91,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="XOF -> EURO"
-                android:textColor="@color/white"
+                android:textColor="@color/gray_dark_600"
                 android:fontFamily="@font/playpensansregular"
+                tools:ignore="HardcodedText"
                 />
 
             <RadioButton
@@ -71,8 +101,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="EURO -> XOF"
-                android:textColor="@color/white"
+                android:textColor="@color/gray_dark_600"
                 android:fontFamily="@font/playpensansregular"
+                tools:ignore="HardcodedText"
                 />
         </RadioGroup>
 
@@ -86,6 +117,7 @@
             android:fontFamily="@font/playpensansregular"
             android:layout_marginTop="15sp"
             android:layout_marginHorizontal="45sp"
+            tools:ignore="HardcodedText"
             />
 
     </LinearLayout>

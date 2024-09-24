@@ -9,8 +9,16 @@ import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.enableEdgeToEdge
 import android.content.Intent
+import android.view.Menu
+import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.widget.Toolbar
+import com.example.tp1_dev_mobile.db.SiglDB
 
 class MainActivity : ComponentActivity() {
+    //VARIABLE DE GESTION DE LA BASE DE DONNEE
+    lateinit var db : SiglDB
+
+    //VARIABLE DE GESTION DES EVENEMENTS DE LA VUE
     private lateinit var prenoms: EditText
     private lateinit var btnAnnuler: Button
     private lateinit var btnValider: Button
@@ -21,16 +29,17 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
 
+        db = SiglDB(this)
+
         // Initialiser les champs
         btnValider = findViewById(R.id.btnValider)
         btnAnnuler = findViewById(R.id.btnAnnuler)
         prenoms = findViewById(R.id.Prenoms)
         nameField = findViewById(R.id.Name)
 
-
         //Ajout du logo sur le haut de l'application
         val imageView = findViewById<ImageView>(R.id.imageView)
-        imageView.setImageResource(R.drawable.logo)
+        imageView.setImageResource(R.drawable.logo_sigl)
 
         // Configurer les écouteurs de clic
         btnEvent()
@@ -55,6 +64,10 @@ class MainActivity : ComponentActivity() {
     // Vérifier les données entrées et valider
     private fun validateInputs(name: String, prenoms: String): Boolean {
         return name.trim().isNotEmpty() && prenoms.trim().isNotEmpty()
+    }
+
+    private fun validateInputsCanceled(name: String, prenoms: String) : Boolean{
+        return name.trim().isNotEmpty() || prenoms.trim().isNotEmpty()
     }
 
     // Afficher les données dans une boîte de dialogue
@@ -88,7 +101,15 @@ class MainActivity : ComponentActivity() {
 
     // Gérer les événements du clic pour le bouton Annuler
     private fun onCancelButtonClick() {
-        clearInputFields()
+        val name = getName()
+        val prenoms = getPrenoms()
+
+        if (validateInputsCanceled(name, prenoms)){
+            clearInputFields()
+        } else {
+            setResult(RESULT_CANCELED)
+            finish()
+        }
     }
 
     private fun btnEvent() {
@@ -99,6 +120,11 @@ class MainActivity : ComponentActivity() {
         btnAnnuler.setOnClickListener {
             onCancelButtonClick()
         }
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.home_menu, menu)
+        return super.onCreateOptionsMenu(menu)
     }
 
 }
