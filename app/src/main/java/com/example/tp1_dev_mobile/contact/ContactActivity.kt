@@ -10,16 +10,21 @@ import androidx.activity.ComponentActivity
 import androidx.activity.enableEdgeToEdge
 import com.example.tp1_dev_mobile.HomeActivity
 import com.example.tp1_dev_mobile.R
+import com.example.tp1_dev_mobile.db.SiglDB
 
 
 class ContactActivity : ComponentActivity() {
     private lateinit var imageView: ImageView
     private lateinit var listContactItem : ListView
 
+    lateinit var db: SiglDB
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_contact)
+
+        db = SiglDB(this)
 
         //Ajout du logo sur le haut de l'application
         imageView = findViewById<ImageView>(R.id.imageView)

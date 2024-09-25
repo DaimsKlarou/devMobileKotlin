@@ -9,6 +9,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.activity.ComponentActivity
 import androidx.activity.enableEdgeToEdge
+import com.example.tp1_dev_mobile.contact.AllContact
 import com.example.tp1_dev_mobile.contact.ContactActivity
 import pl.droidsonroids.gif.GifDrawable
 import pl.droidsonroids.gif.GifImageView
@@ -97,7 +98,7 @@ class HomeActivity : ComponentActivity() {
     }
 
     private fun contactPage(){
-        val valIntent = Intent(this, ContactActivity::class.java)
+        val valIntent = Intent(this, AllContact::class.java)
         startActivity(valIntent)
     }
 
