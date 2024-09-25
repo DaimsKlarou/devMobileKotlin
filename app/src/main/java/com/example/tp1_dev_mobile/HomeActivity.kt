@@ -56,6 +56,10 @@ class HomeActivity : ComponentActivity() {
 
         //ecouteur d'evenement
         eventButton()
+
+        imageView.setOnClickListener {
+            contactPage()
+        }
     }
 
     private fun ConversionView(){
@@ -92,6 +96,11 @@ class HomeActivity : ComponentActivity() {
         builder.show()
     }
 
+    private fun contactPage(){
+        val valIntent = Intent(this, ContactActivity::class.java)
+        startActivity(valIntent)
+    }
+
     private fun eventButton(){
         btn_conversion.setOnClickListener {
             ConversionView()
@@ -105,11 +114,7 @@ class HomeActivity : ComponentActivity() {
             showExitConfirmationDialog()
         }
 
-        imageView.setOnClickListener {
-            Intent(this, ContactActivity::class.java).also {
-                startActivity(it)
-            }
-        }
-
     }
+
+
 }
