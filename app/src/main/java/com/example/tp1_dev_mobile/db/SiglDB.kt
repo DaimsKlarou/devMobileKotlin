@@ -21,16 +21,6 @@ class SiglDB (
     version
 ) {
     override fun onCreate(db: SQLiteDatabase?) {
-        //creation des tables
-        val createTableUser = """
-            CREATE TABLE $HISTORIQUE_TABLE_NAME (
-                $HISTORIQUE_ID integer PRIMARY KEY,
-                $TYPE varchar(25),
-                $VALUE decimal,
-                $DATE date
-            )
-        """.trimIndent()
-
         val createTableContacts = """
             CREATE TABLE $CONTACT_TABLE_NAME (
                 $CONTACT_ID integer PRIMARY KEY,
@@ -40,17 +30,11 @@ class SiglDB (
                 $PROFESSION varchar(50)
             )
         """.trimIndent()
-
-        db?.execSQL(createTableUser)
         db?.execSQL(createTableContacts)
     }
 
     override fun onUpgrade(db: SQLiteDatabase?, p1: Int, p2: Int) {
-        //suppression des anciennes tables et creations des nouvelles tables
-        db?.execSQL("DROP TABLE IF EXISTS $HISTORIQUE_TABLE_NAME ")
-
         db?.execSQL("DROP TABLE IF EXISTS $CONTACT_TABLE_NAME ")
-
         onCreate(db)
     }
 
@@ -172,13 +156,26 @@ class SiglDB (
         // Essaye de mettre à jour le contact
         val result = db.update("contacts", values, selection, selectionArgs)
 
-        Log.d("Database", "Updating contact with ID: ${contact.id}")
+        Log.d("SiglDB", "Updating contact with ID: ${contact.id}")
 
         // Ferme la base de données
         db.close()
 
-        // Vérifie si la mise à jour a réussi
         return result > 0  // Renvoie true si le contact a été mis à jour
+    }
+
+    fun deleteContact(contact: Contact): Boolean {
+        val db = this.writableDatabase
+
+        val selection = "id = ?"
+        val selectionArgs = arrayOf(contact.id.toString())
+
+        val result = db.delete("contacts", selection, selectionArgs)
+        Log.d("SiglDB", "deleted contact with ID: ${contact.id}")
+
+        db.close()
+
+        return result > 0
     }
 
 

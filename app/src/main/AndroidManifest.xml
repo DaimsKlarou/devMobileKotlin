@@ -2,9 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/logo_sigl"
@@ -12,48 +9,42 @@
         android:roundIcon="@mipmap/logo_sigl_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Tp1_dev_mobile">
-
+        <activity
+            android:name=".ShowContact"
+            android:exported="false" />
         <activity
             android:name=".contact.EditContact"
             android:exported="false"
-            android:theme="@style/Theme.Tp1_dev_mobile"/>
-
+            android:theme="@style/Theme.Tp1_dev_mobile" />
         <activity
             android:name=".contact.NewContact"
             android:exported="false"
-            android:theme="@style/Theme.Tp1_dev_mobile"/>
-
+            android:theme="@style/Theme.Tp1_dev_mobile" />
         <activity
             android:name=".contact.AllContact"
             android:exported="false"
-            android:theme="@style/Theme.Tp1_dev_mobile"/>
-
+            android:theme="@style/Theme.Tp1_dev_mobile" />
         <activity
             android:name=".contact.ContactActivity"
             android:exported="false"
-            android:theme="@style/Theme.Tp1_dev_mobile"/>
-
+            android:theme="@style/Theme.Tp1_dev_mobile" />
         <activity
             android:name=".HomeActivity"
             android:exported="true"
             android:theme="@style/Theme.Tp1_dev_mobile" />
-
         <activity
             android:name=".Conversion"
             android:exported="true"
             android:parentActivityName=".HomeActivity"
             android:theme="@style/Theme.Tp1_dev_mobile" />
-
         <activity
             android:name=".Historique"
             android:exported="true"
             android:theme="@style/Theme.Tp1_dev_mobile" />
-
         <activity
             android:name=".ConversionResult"
             android:exported="true"
             android:theme="@style/Theme.Tp1_dev_mobile" />
-
         <activity
             android:name=".MainActivity"
             android:exported="true"

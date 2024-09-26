@@ -51,14 +51,6 @@ class AllContact : ComponentActivity() {
             }
         }
 
-//        val postArray = arrayListOf(
-//            Contact("Charles", "Klarou", "0173535299", "Etudiant"),
-//            Contact("George", "Domi", "0114536899", "Etudiant"),
-//            Contact("Aude", "Camara", "0701203454", "Etudiant"),
-//            Contact("Estelle", "Djebre", "02030405", "Etudiant"),
-//            Contact("Franck", "Yoro", "0101020304", "Etudiant")
-//        )
-
         try {
             val postArray = db.getAllContacts()
             Log.d("AllContactActivity", "Posts: $postArray")

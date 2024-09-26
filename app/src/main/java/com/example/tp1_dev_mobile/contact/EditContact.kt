@@ -5,13 +5,9 @@ import android.os.Bundle
 import android.util.Log
 import android.widget.Button
 import android.widget.EditText
-import android.widget.TextView
 import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.enableEdgeToEdge
-import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import com.example.tp1_dev_mobile.R
 import com.example.tp1_dev_mobile.data.Contact
 import com.example.tp1_dev_mobile.db.SiglDB
@@ -41,7 +37,7 @@ class EditContact : ComponentActivity() {
         name = findViewById(R.id.name)
         prenoms = findViewById(R.id.Prenoms)
         numero = findViewById(R.id.numero)
-        profession = findViewById(R.id.profession)
+        profession = findViewById(R.id.professionShow)
         contactImage = findViewById(R.id.new_contact_image)
 
         btnValider = findViewById(R.id.btnValider)
