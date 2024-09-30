@@ -54,9 +54,7 @@ class AllContact : ComponentActivity() {
         try {
             val postArray = db.getAllContacts()
             Log.d("AllContactActivity", "Posts: $postArray")
-
             val adapter = ContactAdapter(this, R.layout.item_contact, postArray)
-
             listContact.adapter = adapter
 
         } catch (e: Exception) {

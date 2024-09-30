@@ -72,7 +72,8 @@
         android:background="@drawable/btn_hover"
         android:fontFamily="@font/playpensanssemibold"
         android:text="Conversion"
-        android:textColor="@color/white"/>
+        android:textColor="@color/white"
+        android:layout_marginHorizontal="20sp"/>
 
     <Button
         android:id="@+id/btn_historique"
@@ -82,7 +83,8 @@
         android:background="@drawable/btn_hover"
         android:fontFamily="@font/playpensanssemibold"
         android:text="Historique"
-        android:textColor="@color/white" />
+        android:textColor="@color/white"
+        android:layout_marginHorizontal="20sp"/>
 
     <Button
         android:id="@+id/btn_retour"
@@ -92,6 +94,7 @@
         android:background="@drawable/btn_hover"
         android:textColor="@color/white"
         android:fontFamily="@font/playpensanssemibold"
+        android:layout_marginHorizontal="20sp"
         />
 
     </LinearLayout>

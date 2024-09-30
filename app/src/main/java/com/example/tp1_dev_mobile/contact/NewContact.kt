@@ -1,6 +1,7 @@
 package com.example.tp1_dev_mobile.contact
 
 import android.content.Intent
+import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import android.os.Bundle
 import android.widget.Button
@@ -8,10 +9,12 @@ import android.widget.EditText
 import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.enableEdgeToEdge
+import androidx.activity.result.contract.ActivityResultContracts
 import com.example.tp1_dev_mobile.R
 import com.example.tp1_dev_mobile.data.Contact
 import com.example.tp1_dev_mobile.db.SiglDB
 import pl.droidsonroids.gif.GifImageView
+import java.io.ByteArrayOutputStream
 
 class NewContact : ComponentActivity() {
     //initialisation de la base de donnee
@@ -25,6 +28,7 @@ class NewContact : ComponentActivity() {
 
     private lateinit var btnValider : Button
     private lateinit var btnAnnuler : Button
+    private lateinit var bitmap : Bitmap
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -42,26 +46,18 @@ class NewContact : ComponentActivity() {
         btnValider = findViewById(R.id.btnValider)
         btnAnnuler = findViewById(R.id.btnAnnuler)
 
+        val galleryLauncher = registerForActivityResult(ActivityResultContracts.GetContent()) { data ->
+            val uri = data
+            val inputStream = contentResolver.openInputStream(uri!!)
+            bitmap = BitmapFactory.decodeStream(inputStream)
+            contactImage.setImageBitmap(bitmap)
+        }
+
         contactImage.setOnClickListener {
-            val IntenImg = Intent(Intent.ACTION_GET_CONTENT)
-            IntenImg.type = "image/*"
-            startActivityForResult(IntenImg, 100)
+           galleryLauncher.launch("image/*")
         }
 
         btnEvent()
-    }
-
-    @Deprecated("This method has been deprecated in favor of using the Activity Result API\n      which brings increased type safety via an {@link ActivityResultContract} and the prebuilt\n      contracts for common intents available in\n      {@link androidx.activity.result.contract.ActivityResultContracts}, provides hooks for\n      testing, and allow receiving results in separate, testable classes independent from your\n      activity. Use\n      {@link #registerForActivityResult(ActivityResultContract, ActivityResultCallback)}\n      with the appropriate {@link ActivityResultContract} and handling the result in the\n      {@link ActivityResultCallback#onActivityResult(Object) callback}.")
-    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
-        super.onActivityResult(requestCode, resultCode, data)
-
-        if (requestCode == 100 && resultCode == RESULT_OK){
-            val uri = data?.data
-            val inputStream = contentResolver.openInputStream(uri!!)
-            val bitmap = BitmapFactory.decodeStream(inputStream)
-
-            contactImage.setImageBitmap(bitmap)
-        }
     }
 
     private fun validatedValue(): Boolean {
@@ -69,16 +65,15 @@ class NewContact : ComponentActivity() {
     }
 
     private fun btnEvent(){
-        val nameText = name.text.toString()
-        val numeroText = numero.text.toString()
-        val professionText = profession.text.toString()
 
         btnValider.setOnClickListener {
-            if(validatedValue()){
-                val contact = Contact(name.text.toString(), prenoms.text.toString(), numero.text.toString(), profession.text.toString())
-                val result_contact = db.addContact(contact)
 
-                if(result_contact){
+            if(validatedValue()){
+                val image :ByteArray = getBytes(bitmap)
+                val contact = Contact(name = name.text.toString(), prenoms =  prenoms.text.toString(), numero = numero.text.toString(), profession = profession.text.toString(), image = image)
+                val resultatContact = db.addContact(contact)
+
+                if(resultatContact){
                     Toast.makeText(this, "Contact saved!!", Toast.LENGTH_LONG).show()
                     Intent(this, AllContact::class.java).also {
                         startActivity(it)
@@ -94,5 +89,11 @@ class NewContact : ComponentActivity() {
         btnAnnuler.setOnClickListener {
             Toast.makeText(this, "Le bouton annule a bien ete clicker", Toast.LENGTH_LONG).show()
         }
+    }
+
+    private fun getBytes(bitmap: Bitmap): ByteArray {
+        val stream = ByteArrayOutputStream()
+        bitmap.compress(Bitmap.CompressFormat.PNG, 0, stream)
+        return stream.toByteArray()
     }
 }

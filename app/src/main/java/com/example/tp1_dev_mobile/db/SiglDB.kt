@@ -21,19 +21,35 @@ class SiglDB (
     version
 ) {
     override fun onCreate(db: SQLiteDatabase?) {
+        //creation des tables
+        val createTableUser = """
+            CREATE TABLE $HISTORIQUE_TABLE_NAME (
+                $HISTORIQUE_ID integer PRIMARY KEY,
+                $TYPE varchar(25),
+                $VALUE decimal,
+                $DATE date
+            )
+        """.trimIndent()
+
         val createTableContacts = """
             CREATE TABLE $CONTACT_TABLE_NAME (
                 $CONTACT_ID integer PRIMARY KEY,
-                $NAME varchar(25) NOT NULL,
-                $PRENOM varchar(50),
-                $NUMERO varchar(13) NOT NULL,
-                $PROFESSION varchar(50)
+                $CONTACT_NAME varchar(25) NOT NULL,
+                $CONTACT_PRENOMS varchar(50),
+                $CONTACT_NUMERO varchar(13) NOT NULL,
+                $CONTACT_PROFESSION varchar(50),
+                $CONTACT_IMAGE blob,
+                $CONTACT_FAVORITE boolean
             )
         """.trimIndent()
+
+        db?.execSQL(createTableUser)
         db?.execSQL(createTableContacts)
     }
 
     override fun onUpgrade(db: SQLiteDatabase?, p1: Int, p2: Int) {
+        //suppression des anciennes tables et creations des nouvelles tables
+        db?.execSQL("DROP TABLE IF EXISTS $HISTORIQUE_TABLE_NAME ")
         db?.execSQL("DROP TABLE IF EXISTS $CONTACT_TABLE_NAME ")
         onCreate(db)
     }
@@ -64,10 +80,11 @@ class SiglDB (
 
         // Fermer la base de données après traitement
         cursor?.moveToFirst()
-
         db.close()
+        Log.d("SiglDB", "Cursor: $cursor")
 
-        return cursor // Retourne le curseur contenant les résultats
+        // Retourne le curseur contenant les résultats
+        return cursor
     }
 
     @SuppressLint("Range")
@@ -79,7 +96,7 @@ class SiglDB (
 
         Log.d("SiglDB", "Database opened successfully")
         // Requête SQL pour sélectionner tous les contacts
-        val query = "SELECT * FROM $CONTACT_TABLE_NAME"
+        val query = "SELECT * FROM $CONTACT_TABLE_NAME ORDER BY $CONTACT_NAME ASC"
 
         Log.d("SiglDB", "Query executed: $query")
         // Exécuter la requête
@@ -95,9 +112,11 @@ class SiglDB (
                 val prenoms = cursor.getString(cursor.getColumnIndex("prenoms"))
                 val profession = cursor.getString(cursor.getColumnIndex("profession"))
                 val phone = cursor.getString(cursor.getColumnIndex("numero"))
+                val image = cursor.getBlob(cursor.getColumnIndex("image"))
+                val favorite = cursor.getInt(cursor.getColumnIndex("favorite"))
 
                 // Créer un objet Contact et l'ajouter à la liste
-                val contact = Contact( name = name, prenoms =  prenoms , numero = phone, profession = profession, id = id)
+                val contact = Contact( name = name, prenoms =  prenoms , numero = phone, profession = profession, id = id, image = image, favorite = favorite == 1)
                 contactList.add(contact)
 
             } while (cursor.moveToNext())  // Passer au contact suivant
@@ -114,27 +133,23 @@ class SiglDB (
     }
 
     fun addContact( contact : Contact) : Boolean{
-        val taille_contact = getAllContacts()
-        Log.d("SiglD", "Posts: $taille_contact")
-
-        contact.id = taille_contact.size + 1
-        Log.d("SiglDB", "Taille de la liste des contacts: ${contact.id}")
 
         val db = this.writableDatabase
         val values = ContentValues()
-        values.put(NAME, contact.name)
-        values.put(PRENOM, contact.prenoms)
-        values.put(NUMERO, contact.numero)
-        values.put(PROFESSION, contact.profession)
-        values.put(CONTACT_ID, contact.id)
+        values.put(CONTACT_NAME, contact.name)
+        values.put(CONTACT_PRENOMS, contact.prenoms)
+        values.put(CONTACT_NUMERO, contact.numero)
+        values.put(CONTACT_PROFESSION, contact.profession)
+        values.put(CONTACT_IMAGE, contact.image)
+        values.put(CONTACT_FAVORITE, contact.favorite)
 
         //insert into comtacts(id, name, prenoms, profession) values (contact.id, contact.name, contact.prenoms, contact.profession);
         val result = db.insert(CONTACT_TABLE_NAME, null, values).toInt()
 
-        Log.d("Database", "Adding contact with ID: ${contact.id}")
+        Log.d("SiglDB", "Adding contact with ID: ${contact.id}")
 
         db.close()
-        return result != -1
+        return result > 0
     }
 
     fun updateContact(contact: Contact): Boolean {
@@ -147,6 +162,8 @@ class SiglDB (
             put("prenoms", contact.prenoms)
             put("numero", contact.numero)
             put("profession", contact.profession)
+            put("image", contact.image)
+            put("favorite", contact.favorite)
         }
 
         // Condition pour mettre à jour le contact basé sur l'ID
@@ -161,10 +178,11 @@ class SiglDB (
         // Ferme la base de données
         db.close()
 
+        // Vérifie si la mise à jour a réussi
         return result > 0  // Renvoie true si le contact a été mis à jour
     }
 
-    fun deleteContact(contact: Contact): Boolean {
+    fun deleteContact(contact: Contact) : Boolean{
         val db = this.writableDatabase
 
         val selection = "id = ?"
@@ -191,7 +209,7 @@ class SiglDB (
 
     companion object{
         private val DB_NAME = "sigl_db"
-        private val DB_VERSION = 1
+        private val DB_VERSION = 2
         private val HISTORIQUE_TABLE_NAME = "historique"
         private val HISTORIQUE_ID = "id"
         private val TYPE = "type"
@@ -201,10 +219,12 @@ class SiglDB (
         //variable de contacts
         private val CONTACT_TABLE_NAME = "contacts"
         private val CONTACT_ID = "id"
-        private val NAME = "name"
-        private val PRENOM = "prenoms"
-        private val NUMERO = "numero"
-        private val PROFESSION = "profession"
+        private val CONTACT_NAME = "name"
+        private val CONTACT_PRENOMS = "prenoms"
+        private val CONTACT_NUMERO = "numero"
+        private val CONTACT_PROFESSION = "profession"
+        private val CONTACT_IMAGE = "image"
+        private val CONTACT_FAVORITE = "favorite"
     }
 
 }

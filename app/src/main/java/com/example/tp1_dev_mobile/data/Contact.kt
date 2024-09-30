@@ -8,7 +8,9 @@ class Contact(
     var prenoms: String,
     var numero: String,
     var profession: String,
-    var id: Int = -1
+    var id: Int = -1,
+    var image : ByteArray = ByteArray(0),
+    var favorite: Boolean = false
 ) : Parcelable {
 
     constructor(parcel: Parcel) : this(
@@ -16,7 +18,9 @@ class Contact(
         parcel.readString() ?: "",
         parcel.readString() ?: "",
         parcel.readString() ?: "",
-        parcel.readInt()
+        parcel.readInt(),
+        parcel.createByteArray() ?: ByteArray(0),
+        parcel.readByte() != 0.toByte()
     )
 
     override fun writeToParcel(parcel: Parcel, flags: Int) {
@@ -25,6 +29,8 @@ class Contact(
         parcel.writeString(numero)
         parcel.writeString(profession)
         parcel.writeInt(id)
+        parcel.writeByteArray(image)
+        parcel.writeByte(if (favorite) 1 else 0)
     }
 
     override fun describeContents(): Int {

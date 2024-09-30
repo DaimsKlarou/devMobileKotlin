@@ -5,7 +5,7 @@
     android:orientation="horizontal"
     android:paddingTop="10dp">
 
-    <pl.droidsonroids.gif.GifImageView
+    <ImageView
         android:id="@+id/contactImage"
         android:layout_width="80dp"
         android:layout_height="90dp"
