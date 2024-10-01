@@ -1,0 +1,682 @@
+[
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-xhdpi_logo_sigl.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-xhdpi/logo_sigl.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-xhdpi_logo_final_with_bg.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-xhdpi/logo_final_with_bg.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-mdpi_logo_final_round.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-mdpi/logo_final_round.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/font_playpensansregular.ttf.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/font/playpensansregular.ttf"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/font_robotobold.ttf.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/font/robotobold.ttf"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/drawable_ic_arrow_32.xml.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/drawable/ic_arrow_32.xml"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/drawable_retour_without_bg.png.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/drawable/retour_without_bg.png"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-xxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-anydpi-v26_logo_final_with_bg.xml.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-anydpi-v26/logo_final_with_bg.xml"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/drawable_logo_sigl.png.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/drawable/logo_sigl.png"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/layout_activity_contact.xml.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/layout/activity_contact.xml"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/font_dancingscriptregular.ttf.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/font/dancingscriptregular.ttf"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/drawable_star_outline_32.xml.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/drawable/star_outline_32.xml"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/layout_activity_main.xml.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/drawable_ic_person_24.xml.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/drawable/ic_person_24.xml"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-xxxhdpi_double_arrow.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-xxxhdpi/double_arrow.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-xxxhdpi_logo_final_with_bg.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-xxxhdpi/logo_final_with_bg.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/drawable_ic_settings_32.xml.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/drawable/ic_settings_32.xml"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/font_playpensanssemibold.ttf.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/font/playpensanssemibold.ttf"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-mdpi_logo_final_with_bg_foreground.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-mdpi/logo_final_with_bg_foreground.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-xhdpi_logo_final_foreground.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-xhdpi/logo_final_foreground.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/drawable_image_conversion.jpeg.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/drawable/image_conversion.jpeg"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-anydpi-v26_logo_final_round.xml.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-anydpi-v26/logo_final_round.xml"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-mdpi_logo_sigl_round.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-mdpi/logo_sigl_round.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/drawable_ic_add_photo_alternate_32.xml.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/drawable/ic_add_photo_alternate_32.xml"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/font_dancingscriptsemibold.ttf.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/font/dancingscriptsemibold.ttf"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-xxhdpi_double_fleche.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-xxhdpi/double_fleche.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/drawable_ic_work_32.xml.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/drawable/ic_work_32.xml"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-mdpi_logo_final.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-mdpi/logo_final.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/font_robotolightitalic.ttf.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/font/robotolightitalic.ttf"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/font_robotomedium.ttf.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/font/robotomedium.ttf"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-hdpi_double_arrow_round.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-hdpi/double_arrow_round.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/font_robotothinitalic.ttf.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/font/robotothinitalic.ttf"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/drawable_star_32.xml.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/drawable/star_32.xml"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-xxxhdpi_logo_sigl_foreground.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-xxxhdpi/logo_sigl_foreground.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-xhdpi_logo_sigl_foreground.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-xhdpi/logo_sigl_foreground.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/drawable_baseline_settings_24.xml.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/drawable/baseline_settings_24.xml"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-hdpi_logo_final_with_bg.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-hdpi/logo_final_with_bg.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-xxhdpi_logo_sigl.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-xxhdpi/logo_sigl.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/font_robotoblackitalic.ttf.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/font/robotoblackitalic.ttf"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-xxhdpi_logo_final_with_bg_foreground.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-xxhdpi/logo_final_with_bg_foreground.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/drawable_logo_background.xml.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/drawable/logo_background.xml"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/drawable_ic_edit_32.xml.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/drawable/ic_edit_32.xml"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/drawable_share_32.xml.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/drawable/share_32.xml"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-xhdpi_logo_sigl_round.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-xhdpi/logo_sigl_round.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/font_playpensansmedium.ttf.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/font/playpensansmedium.ttf"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/font_robotoregular.ttf.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/font/robotoregular.ttf"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/drawable_ic_delete_32.xml.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/drawable/ic_delete_32.xml"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/xml_data_extraction_rules.xml.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-xhdpi_logo_final_with_bg_foreground.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-xhdpi/logo_final_with_bg_foreground.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/layout_result_consersion.xml.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/layout/result_consersion.xml"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/layout_historique.xml.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/layout/historique.xml"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/font_robotothin.ttf.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/font/robotothin.ttf"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/font_robotomediumitalic.ttf.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/font/robotomediumitalic.ttf"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/drawable_baseline_contacts_24.xml.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/drawable/baseline_contacts_24.xml"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-xxxhdpi_logo_final_round.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-xxxhdpi/logo_final_round.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-mdpi_logo_sigl.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-mdpi/logo_sigl.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/layout_activity_edit_contact.xml.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/layout/activity_edit_contact.xml"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/font_ephesisregular.ttf.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/font/ephesisregular.ttf"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/font_playpensansextralight.ttf.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/font/playpensansextralight.ttf"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/menu_home_menu.xml.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/menu/home_menu.xml"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/layout_user_home.xml.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/layout/user_home.xml"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/drawable_ic_heart_plus_32.xml.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/drawable/ic_heart_plus_32.xml"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-xhdpi_double_arrow.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-xhdpi/double_arrow.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/drawable_ic_logout_24.xml.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/drawable/ic_logout_24.xml"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-xhdpi_double_arrow_round.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-xhdpi/double_arrow_round.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-hdpi_logo_final_round.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-hdpi/logo_final_round.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-mdpi_double_fleche.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-mdpi/double_fleche.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/xml_backup_rules.xml.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/font_dancingsriptmedium.ttf.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/font/dancingsriptmedium.ttf"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/drawable_logo_final_background.xml.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/drawable/logo_final_background.xml"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/drawable_dernier_logo_removebg.png.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/drawable/dernier_logo_removebg.png"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/drawable_logo.png.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/drawable/logo.png"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/layout_conversion.xml.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/layout/conversion.xml"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-xxxhdpi_logo_final_foreground.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-xxxhdpi/logo_final_foreground.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-hdpi_double_fleche.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-hdpi/double_fleche.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/drawable_ic_call_32.xml.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/drawable/ic_call_32.xml"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-mdpi_logo_final_foreground.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-mdpi/logo_final_foreground.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/drawable_ic_contacts_32.xml.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/drawable/ic_contacts_32.xml"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/drawable_dernier_logo_removebg2.png.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/drawable/dernier_logo_removebg2.png"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-xhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/drawable_border_btn.xml.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/drawable/border_btn.xml"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-mdpi_double_arrow_round.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-mdpi/double_arrow_round.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-xhdpi_logo_final.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-xhdpi/logo_final.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/layout_item_contact.xml.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/layout/item_contact.xml"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-xxhdpi_double_arrow_round.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-xxhdpi/double_arrow_round.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-hdpi_double_arrow.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-hdpi/double_arrow.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-xxxhdpi_logo_final_with_bg_foreground.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-xxxhdpi/logo_final_with_bg_foreground.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-xhdpi_logo_final_with_bg_round.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-xhdpi/logo_final_with_bg_round.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/font_playpensansextrabold.ttf.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/font/playpensansextrabold.ttf"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/drawable_ic_person_search_32.xml.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/drawable/ic_person_search_32.xml"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/drawable_sigl_anime_final.gif.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/drawable/sigl_anime_final.gif"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/drawable_ic_heart_broken_32.xml.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/drawable/ic_heart_broken_32.xml"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/drawable_ic_work_outline_24.xml.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/drawable/ic_work_outline_24.xml"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/font_playpensanslight.ttf.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/font/playpensanslight.ttf"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-hdpi_logo_sigl_round.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-hdpi/logo_sigl_round.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-xhdpi_logo_final_round.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-xhdpi/logo_final_round.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/font_playpensansbold.ttf.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/font/playpensansbold.ttf"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-anydpi-v26_logo_final.xml.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-anydpi-v26/logo_final.xml"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-xhdpi_double_fleche.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-xhdpi/double_fleche.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/drawable_border.xml.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/drawable/border.xml"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-hdpi_logo_sigl.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-hdpi/logo_sigl.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/layout_activity_show_contact.xml.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/layout/activity_show_contact.xml"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-xxhdpi_logo_final.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-xxhdpi/logo_final.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-xxhdpi_logo_final_with_bg_round.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-xxhdpi/logo_final_with_bg_round.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/drawable_dernier_logo.png.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/drawable/dernier_logo.png"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/font_dancingscriptbold.ttf.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/font/dancingscriptbold.ttf"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-hdpi_logo_final_foreground.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-hdpi/logo_final_foreground.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-xxhdpi_logo_final_foreground.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-xxhdpi/logo_final_foreground.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-xxxhdpi_logo_final_with_bg_round.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-xxxhdpi/logo_final_with_bg_round.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/drawable_ic_home_32.xml.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/drawable/ic_home_32.xml"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/drawable_favorite_star_32.xml.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/drawable/favorite_star_32.xml"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/drawable_sigl_final_removebg.png.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/drawable/sigl_final_removebg.png"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-xxxhdpi_logo_final.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-xxxhdpi/logo_final.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-hdpi_logo_final_with_bg_round.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-hdpi/logo_final_with_bg_round.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/drawable_btn_hover.xml.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/drawable/btn_hover.xml"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/layout_activity_all_contact.xml.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/layout/activity_all_contact.xml"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/font_robotoblack.ttf.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/font/robotoblack.ttf"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-mdpi_double_arrow.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-mdpi/double_arrow.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-mdpi_logo_sigl_foreground.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-mdpi/logo_sigl_foreground.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-xxxhdpi_double_arrow_round.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-xxxhdpi/double_arrow_round.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-xxhdpi_double_arrow.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-xxhdpi/double_arrow.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-hdpi_logo_final_with_bg_foreground.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-hdpi/logo_final_with_bg_foreground.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-mdpi_logo_final_with_bg.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-mdpi/logo_final_with_bg.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-anydpi-v26_logo_final_with_bg_round.xml.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-anydpi-v26/logo_final_with_bg_round.xml"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-xxhdpi_logo_sigl_foreground.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-xxhdpi/logo_sigl_foreground.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/font_playpensansthin.ttf.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/font/playpensansthin.ttf"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-anydpi-v26_logo_sigl.xml.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-anydpi-v26/logo_sigl.xml"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/drawable_logo_conversion_without_bg.png.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/drawable/logo_conversion_without_bg.png"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-xxxhdpi_logo_sigl_round.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-xxxhdpi/logo_sigl_round.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/drawable_ic_heart_check_32.xml.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/drawable/ic_heart_check_32.xml"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-anydpi-v26_logo_sigl_round.xml.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-anydpi-v26/logo_sigl_round.xml"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/font_robotoitalic.ttf.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/font/robotoitalic.ttf"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/drawable_ic_history_32.xml.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/drawable/ic_history_32.xml"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-xxxhdpi_double_fleche.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-xxxhdpi/double_fleche.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/drawable_sigl_anime.gif.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/drawable/sigl_anime.gif"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-mdpi_logo_final_with_bg_round.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-mdpi/logo_final_with_bg_round.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/layout_activity_new_contact.xml.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/layout/activity_new_contact.xml"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/drawable_ic_launcher_background.xml.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-xxxhdpi_logo_sigl.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-xxxhdpi/logo_sigl.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/drawable_sigl_final.png.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/drawable/sigl_final.png"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/drawable_logo_sigl_background.xml.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/drawable/logo_sigl_background.xml"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-mdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-xxhdpi_logo_sigl_round.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-xxhdpi/logo_sigl_round.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/font_robotolight.ttf.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/font/robotolight.ttf"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-hdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/layout_item.xml.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/layout/item.xml"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/drawable_ic_info_32.xml.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/drawable/ic_info_32.xml"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-xxhdpi_logo_final_with_bg.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-xxhdpi/logo_final_with_bg.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-xxhdpi_logo_final_round.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-xxhdpi/logo_final_round.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/drawable_ic_home_24.xml.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/drawable/ic_home_24.xml"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-hdpi_logo_final.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-hdpi/logo_final.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/drawable_logo_final_with_bg_background.xml.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/drawable/logo_final_with_bg_background.xml"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/drawable_ic_add_32.xml.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/drawable/ic_add_32.xml"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/mipmap-hdpi_logo_sigl_foreground.webp.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/mipmap-hdpi/logo_sigl_foreground.webp"
+    },
+    {
+        "merged": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-debug-59:/font_robotobolditalic.ttf.flat",
+        "source": "/home/daimsk/.gradle/daemon/8.7/com.example.tp1_dev_mobile.app-main-61:/font/robotobolditalic.ttf"
+    }
+]

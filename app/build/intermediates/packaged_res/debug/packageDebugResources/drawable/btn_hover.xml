@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/button_background.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!-- État lorsqu'on clique ou appuie sur le bouton -->
+<item android:state_pressed="true">
+    <shape android:shape="rectangle">
+        <solid android:color="@color/bleu_600"/>
+        <stroke android:width="2sp" android:color="@color/bleu_800" />
+        <corners android:radius="20sp" />
+    </shape>
+</item>
+
+<!-- État par défaut (non cliqué) -->
+<item android:state_enabled="true">
+    <shape android:shape="rectangle">
+        <solid android:color="@color/white" />
+        <stroke android:width="2sp" android:color="@color/bleu_400" />
+        <corners android:radius="20sp" />
+        <gradient android:startColor="@color/gray_dark_400" android:endColor="@color/bleu_800" />
+    </shape>
+</item>
+
+<!-- État lorsque le bouton est désactivé -->
+<item android:state_enabled="false">
+    <shape android:shape="rectangle">
+        <solid android:color="#BDBDBD"/> <!-- Couleur lorsqu'il est désactivé -->
+        <corners android:radius="8dp" />
+    </shape>
+</item>
+
+</selector>

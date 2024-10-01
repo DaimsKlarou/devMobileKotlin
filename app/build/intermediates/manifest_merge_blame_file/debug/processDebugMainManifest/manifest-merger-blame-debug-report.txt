@@ -1,0 +1,241 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.tp1_dev_mobile"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- Autorisation pour accéder à Internet -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/home/daimsk/Documents/Esatic/M2 SIGL/Semestre 9/Partie 1/DevMobile/devMobileKotlin/app/src/main/AndroidManifest.xml:6:5-66
+12-->/home/daimsk/Documents/Esatic/M2 SIGL/Semestre 9/Partie 1/DevMobile/devMobileKotlin/app/src/main/AndroidManifest.xml:6:22-64
+13
+14    <!-- Autorisation pour lire et écrire sur le stockage externe -->
+15    <uses-permission
+15-->/home/daimsk/Documents/Esatic/M2 SIGL/Semestre 9/Partie 1/DevMobile/devMobileKotlin/app/src/main/AndroidManifest.xml:9:5-107
+16        android:name="android.permission.READ_EXTERNAL_STORAGE"
+16-->/home/daimsk/Documents/Esatic/M2 SIGL/Semestre 9/Partie 1/DevMobile/devMobileKotlin/app/src/main/AndroidManifest.xml:9:22-77
+17        android:maxSdkVersion="24" />
+17-->/home/daimsk/Documents/Esatic/M2 SIGL/Semestre 9/Partie 1/DevMobile/devMobileKotlin/app/src/main/AndroidManifest.xml:9:79-105
+18    <uses-permission
+18-->/home/daimsk/Documents/Esatic/M2 SIGL/Semestre 9/Partie 1/DevMobile/devMobileKotlin/app/src/main/AndroidManifest.xml:10:5-108
+19        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+19-->/home/daimsk/Documents/Esatic/M2 SIGL/Semestre 9/Partie 1/DevMobile/devMobileKotlin/app/src/main/AndroidManifest.xml:10:22-78
+20        android:maxSdkVersion="24" />
+20-->/home/daimsk/Documents/Esatic/M2 SIGL/Semestre 9/Partie 1/DevMobile/devMobileKotlin/app/src/main/AndroidManifest.xml:10:80-106
+21
+22    <!-- Autorisation pour utiliser la localisation (GPS, réseau) -->
+23    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+23-->/home/daimsk/Documents/Esatic/M2 SIGL/Semestre 9/Partie 1/DevMobile/devMobileKotlin/app/src/main/AndroidManifest.xml:13:5-78
+23-->/home/daimsk/Documents/Esatic/M2 SIGL/Semestre 9/Partie 1/DevMobile/devMobileKotlin/app/src/main/AndroidManifest.xml:13:22-76
+24    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+24-->/home/daimsk/Documents/Esatic/M2 SIGL/Semestre 9/Partie 1/DevMobile/devMobileKotlin/app/src/main/AndroidManifest.xml:14:5-80
+24-->/home/daimsk/Documents/Esatic/M2 SIGL/Semestre 9/Partie 1/DevMobile/devMobileKotlin/app/src/main/AndroidManifest.xml:14:22-78
+25
+26    <permission
+26-->[androidx.core:core:1.13.1] /home/daimsk/.gradle/caches/transforms-4/feda36da8ac29a6f81707e67e5fb7a04/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+27        android:name="com.example.tp1_dev_mobile.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+27-->[androidx.core:core:1.13.1] /home/daimsk/.gradle/caches/transforms-4/feda36da8ac29a6f81707e67e5fb7a04/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+28        android:protectionLevel="signature" />
+28-->[androidx.core:core:1.13.1] /home/daimsk/.gradle/caches/transforms-4/feda36da8ac29a6f81707e67e5fb7a04/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+29
+30    <uses-permission android:name="com.example.tp1_dev_mobile.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+30-->[androidx.core:core:1.13.1] /home/daimsk/.gradle/caches/transforms-4/feda36da8ac29a6f81707e67e5fb7a04/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+30-->[androidx.core:core:1.13.1] /home/daimsk/.gradle/caches/transforms-4/feda36da8ac29a6f81707e67e5fb7a04/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+31
+32    <application
+32-->/home/daimsk/Documents/Esatic/M2 SIGL/Semestre 9/Partie 1/DevMobile/devMobileKotlin/app/src/main/AndroidManifest.xml:16:5-70:19
+33        android:allowBackup="true"
+33-->/home/daimsk/Documents/Esatic/M2 SIGL/Semestre 9/Partie 1/DevMobile/devMobileKotlin/app/src/main/AndroidManifest.xml:17:9-35
+34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+34-->[androidx.core:core:1.13.1] /home/daimsk/.gradle/caches/transforms-4/feda36da8ac29a6f81707e67e5fb7a04/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+35        android:debuggable="true"
+36        android:extractNativeLibs="false"
+37        android:icon="@mipmap/logo_sigl"
+37-->/home/daimsk/Documents/Esatic/M2 SIGL/Semestre 9/Partie 1/DevMobile/devMobileKotlin/app/src/main/AndroidManifest.xml:18:9-41
+38        android:label="@string/app_name"
+38-->/home/daimsk/Documents/Esatic/M2 SIGL/Semestre 9/Partie 1/DevMobile/devMobileKotlin/app/src/main/AndroidManifest.xml:19:9-41
+39        android:roundIcon="@mipmap/logo_sigl_round"
+39-->/home/daimsk/Documents/Esatic/M2 SIGL/Semestre 9/Partie 1/DevMobile/devMobileKotlin/app/src/main/AndroidManifest.xml:20:9-52
+40        android:supportsRtl="true"
+40-->/home/daimsk/Documents/Esatic/M2 SIGL/Semestre 9/Partie 1/DevMobile/devMobileKotlin/app/src/main/AndroidManifest.xml:21:9-35
+41        android:testOnly="true"
+42        android:theme="@style/Theme.Tp1_dev_mobile" >
+42-->/home/daimsk/Documents/Esatic/M2 SIGL/Semestre 9/Partie 1/DevMobile/devMobileKotlin/app/src/main/AndroidManifest.xml:22:9-52
+43        <activity
+43-->/home/daimsk/Documents/Esatic/M2 SIGL/Semestre 9/Partie 1/DevMobile/devMobileKotlin/app/src/main/AndroidManifest.xml:23:9-25:40
+44            android:name="com.example.tp1_dev_mobile.ShowContact"
+44-->/home/daimsk/Documents/Esatic/M2 SIGL/Semestre 9/Partie 1/DevMobile/devMobileKotlin/app/src/main/AndroidManifest.xml:24:13-40
+45            android:exported="false" />
+45-->/home/daimsk/Documents/Esatic/M2 SIGL/Semestre 9/Partie 1/DevMobile/devMobileKotlin/app/src/main/AndroidManifest.xml:25:13-37
+46        <activity
+46-->/home/daimsk/Documents/Esatic/M2 SIGL/Semestre 9/Partie 1/DevMobile/devMobileKotlin/app/src/main/AndroidManifest.xml:26:9-29:59
+47            android:name="com.example.tp1_dev_mobile.contact.EditContact"
+47-->/home/daimsk/Documents/Esatic/M2 SIGL/Semestre 9/Partie 1/DevMobile/devMobileKotlin/app/src/main/AndroidManifest.xml:27:13-48
+48            android:exported="false"
+48-->/home/daimsk/Documents/Esatic/M2 SIGL/Semestre 9/Partie 1/DevMobile/devMobileKotlin/app/src/main/AndroidManifest.xml:28:13-37
+49            android:theme="@style/Theme.Tp1_dev_mobile" />
+49-->/home/daimsk/Documents/Esatic/M2 SIGL/Semestre 9/Partie 1/DevMobile/devMobileKotlin/app/src/main/AndroidManifest.xml:29:13-56
+50        <activity
+50-->/home/daimsk/Documents/Esatic/M2 SIGL/Semestre 9/Partie 1/DevMobile/devMobileKotlin/app/src/main/AndroidManifest.xml:30:9-33:59
+51            android:name="com.example.tp1_dev_mobile.contact.NewContact"
+51-->/home/daimsk/Documents/Esatic/M2 SIGL/Semestre 9/Partie 1/DevMobile/devMobileKotlin/app/src/main/AndroidManifest.xml:31:13-47
+52            android:exported="false"
+52-->/home/daimsk/Documents/Esatic/M2 SIGL/Semestre 9/Partie 1/DevMobile/devMobileKotlin/app/src/main/AndroidManifest.xml:32:13-37
+53            android:theme="@style/Theme.Tp1_dev_mobile" />
+53-->/home/daimsk/Documents/Esatic/M2 SIGL/Semestre 9/Partie 1/DevMobile/devMobileKotlin/app/src/main/AndroidManifest.xml:33:13-56
+54        <activity
+54-->/home/daimsk/Documents/Esatic/M2 SIGL/Semestre 9/Partie 1/DevMobile/devMobileKotlin/app/src/main/AndroidManifest.xml:34:9-37:59
+55            android:name="com.example.tp1_dev_mobile.contact.AllContact"
+55-->/home/daimsk/Documents/Esatic/M2 SIGL/Semestre 9/Partie 1/DevMobile/devMobileKotlin/app/src/main/AndroidManifest.xml:35:13-47
+56            android:exported="false"
+56-->/home/daimsk/Documents/Esatic/M2 SIGL/Semestre 9/Partie 1/DevMobile/devMobileKotlin/app/src/main/AndroidManifest.xml:36:13-37
+57            android:theme="@style/Theme.Tp1_dev_mobile" />
+57-->/home/daimsk/Documents/Esatic/M2 SIGL/Semestre 9/Partie 1/DevMobile/devMobileKotlin/app/src/main/AndroidManifest.xml:37:13-56
+58        <activity
+58-->/home/daimsk/Documents/Esatic/M2 SIGL/Semestre 9/Partie 1/DevMobile/devMobileKotlin/app/src/main/AndroidManifest.xml:38:9-41:59
+59            android:name="com.example.tp1_dev_mobile.contact.ContactActivity"
+59-->/home/daimsk/Documents/Esatic/M2 SIGL/Semestre 9/Partie 1/DevMobile/devMobileKotlin/app/src/main/AndroidManifest.xml:39:13-52
+60            android:exported="false"
+60-->/home/daimsk/Documents/Esatic/M2 SIGL/Semestre 9/Partie 1/DevMobile/devMobileKotlin/app/src/main/AndroidManifest.xml:40:13-37
+61            android:theme="@style/Theme.Tp1_dev_mobile" />
+61-->/home/daimsk/Documents/Esatic/M2 SIGL/Semestre 9/Partie 1/DevMobile/devMobileKotlin/app/src/main/AndroidManifest.xml:41:13-56
+62        <activity
+62-->/home/daimsk/Documents/Esatic/M2 SIGL/Semestre 9/Partie 1/DevMobile/devMobileKotlin/app/src/main/AndroidManifest.xml:42:9-45:59
+63            android:name="com.example.tp1_dev_mobile.HomeActivity"
+63-->/home/daimsk/Documents/Esatic/M2 SIGL/Semestre 9/Partie 1/DevMobile/devMobileKotlin/app/src/main/AndroidManifest.xml:43:13-41
+64            android:exported="true"
+64-->/home/daimsk/Documents/Esatic/M2 SIGL/Semestre 9/Partie 1/DevMobile/devMobileKotlin/app/src/main/AndroidManifest.xml:44:13-36
+65            android:theme="@style/Theme.Tp1_dev_mobile" />
+65-->/home/daimsk/Documents/Esatic/M2 SIGL/Semestre 9/Partie 1/DevMobile/devMobileKotlin/app/src/main/AndroidManifest.xml:45:13-56
+66        <activity
+66-->/home/daimsk/Documents/Esatic/M2 SIGL/Semestre 9/Partie 1/DevMobile/devMobileKotlin/app/src/main/AndroidManifest.xml:46:9-50:59
+67            android:name="com.example.tp1_dev_mobile.Conversion"
+67-->/home/daimsk/Documents/Esatic/M2 SIGL/Semestre 9/Partie 1/DevMobile/devMobileKotlin/app/src/main/AndroidManifest.xml:47:13-39
+68            android:exported="true"
+68-->/home/daimsk/Documents/Esatic/M2 SIGL/Semestre 9/Partie 1/DevMobile/devMobileKotlin/app/src/main/AndroidManifest.xml:48:13-36
+69            android:parentActivityName="com.example.tp1_dev_mobile.HomeActivity"
+69-->/home/daimsk/Documents/Esatic/M2 SIGL/Semestre 9/Partie 1/DevMobile/devMobileKotlin/app/src/main/AndroidManifest.xml:49:13-55
+70            android:theme="@style/Theme.Tp1_dev_mobile" />
+70-->/home/daimsk/Documents/Esatic/M2 SIGL/Semestre 9/Partie 1/DevMobile/devMobileKotlin/app/src/main/AndroidManifest.xml:50:13-56
+71        <activity
+71-->/home/daimsk/Documents/Esatic/M2 SIGL/Semestre 9/Partie 1/DevMobile/devMobileKotlin/app/src/main/AndroidManifest.xml:51:9-54:59
+72            android:name="com.example.tp1_dev_mobile.Historique"
+72-->/home/daimsk/Documents/Esatic/M2 SIGL/Semestre 9/Partie 1/DevMobile/devMobileKotlin/app/src/main/AndroidManifest.xml:52:13-39
+73            android:exported="true"
+73-->/home/daimsk/Documents/Esatic/M2 SIGL/Semestre 9/Partie 1/DevMobile/devMobileKotlin/app/src/main/AndroidManifest.xml:53:13-36
+74            android:theme="@style/Theme.Tp1_dev_mobile" />
+74-->/home/daimsk/Documents/Esatic/M2 SIGL/Semestre 9/Partie 1/DevMobile/devMobileKotlin/app/src/main/AndroidManifest.xml:54:13-56
+75        <activity
+75-->/home/daimsk/Documents/Esatic/M2 SIGL/Semestre 9/Partie 1/DevMobile/devMobileKotlin/app/src/main/AndroidManifest.xml:55:9-58:59
+76            android:name="com.example.tp1_dev_mobile.ConversionResult"
+76-->/home/daimsk/Documents/Esatic/M2 SIGL/Semestre 9/Partie 1/DevMobile/devMobileKotlin/app/src/main/AndroidManifest.xml:56:13-45
+77            android:exported="true"
+77-->/home/daimsk/Documents/Esatic/M2 SIGL/Semestre 9/Partie 1/DevMobile/devMobileKotlin/app/src/main/AndroidManifest.xml:57:13-36
+78            android:theme="@style/Theme.Tp1_dev_mobile" />
+78-->/home/daimsk/Documents/Esatic/M2 SIGL/Semestre 9/Partie 1/DevMobile/devMobileKotlin/app/src/main/AndroidManifest.xml:58:13-56
+79        <activity
+79-->/home/daimsk/Documents/Esatic/M2 SIGL/Semestre 9/Partie 1/DevMobile/devMobileKotlin/app/src/main/AndroidManifest.xml:59:9-69:20
+80            android:name="com.example.tp1_dev_mobile.MainActivity"
+80-->/home/daimsk/Documents/Esatic/M2 SIGL/Semestre 9/Partie 1/DevMobile/devMobileKotlin/app/src/main/AndroidManifest.xml:60:13-41
+81            android:exported="true"
+81-->/home/daimsk/Documents/Esatic/M2 SIGL/Semestre 9/Partie 1/DevMobile/devMobileKotlin/app/src/main/AndroidManifest.xml:61:13-36
+82            android:label="@string/app_name"
+82-->/home/daimsk/Documents/Esatic/M2 SIGL/Semestre 9/Partie 1/DevMobile/devMobileKotlin/app/src/main/AndroidManifest.xml:62:13-45
+83            android:theme="@style/Theme.Tp1_dev_mobile" >
+83-->/home/daimsk/Documents/Esatic/M2 SIGL/Semestre 9/Partie 1/DevMobile/devMobileKotlin/app/src/main/AndroidManifest.xml:63:13-56
+84            <intent-filter>
+84-->/home/daimsk/Documents/Esatic/M2 SIGL/Semestre 9/Partie 1/DevMobile/devMobileKotlin/app/src/main/AndroidManifest.xml:64:13-68:29
+85                <action android:name="android.intent.action.MAIN" />
+85-->/home/daimsk/Documents/Esatic/M2 SIGL/Semestre 9/Partie 1/DevMobile/devMobileKotlin/app/src/main/AndroidManifest.xml:65:17-69
+85-->/home/daimsk/Documents/Esatic/M2 SIGL/Semestre 9/Partie 1/DevMobile/devMobileKotlin/app/src/main/AndroidManifest.xml:65:25-66
+86
+87                <category android:name="android.intent.category.LAUNCHER" />
+87-->/home/daimsk/Documents/Esatic/M2 SIGL/Semestre 9/Partie 1/DevMobile/devMobileKotlin/app/src/main/AndroidManifest.xml:67:17-77
+87-->/home/daimsk/Documents/Esatic/M2 SIGL/Semestre 9/Partie 1/DevMobile/devMobileKotlin/app/src/main/AndroidManifest.xml:67:27-74
+88            </intent-filter>
+89        </activity>
+90        <activity
+90-->[androidx.compose.ui:ui-tooling-android:1.6.6] /home/daimsk/.gradle/caches/transforms-4/ee1688b9c0193b1a99d5e35748a1dcb6/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+91            android:name="androidx.compose.ui.tooling.PreviewActivity"
+91-->[androidx.compose.ui:ui-tooling-android:1.6.6] /home/daimsk/.gradle/caches/transforms-4/ee1688b9c0193b1a99d5e35748a1dcb6/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+92            android:exported="true" />
+92-->[androidx.compose.ui:ui-tooling-android:1.6.6] /home/daimsk/.gradle/caches/transforms-4/ee1688b9c0193b1a99d5e35748a1dcb6/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+93        <activity
+93-->[androidx.compose.ui:ui-test-manifest:1.6.6] /home/daimsk/.gradle/caches/transforms-4/40195a8cda9d05cf6091ed26d38ada3f/transformed/ui-test-manifest-1.6.6/AndroidManifest.xml:23:9-25:39
+94            android:name="androidx.activity.ComponentActivity"
+94-->[androidx.compose.ui:ui-test-manifest:1.6.6] /home/daimsk/.gradle/caches/transforms-4/40195a8cda9d05cf6091ed26d38ada3f/transformed/ui-test-manifest-1.6.6/AndroidManifest.xml:24:13-63
+95            android:exported="true" />
+95-->[androidx.compose.ui:ui-test-manifest:1.6.6] /home/daimsk/.gradle/caches/transforms-4/40195a8cda9d05cf6091ed26d38ada3f/transformed/ui-test-manifest-1.6.6/AndroidManifest.xml:25:13-36
+96
+97        <provider
+97-->[androidx.emoji2:emoji2:1.3.0] /home/daimsk/.gradle/caches/transforms-4/a0847ed70a3e2ee99235821b45bd5058/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+98            android:name="androidx.startup.InitializationProvider"
+98-->[androidx.emoji2:emoji2:1.3.0] /home/daimsk/.gradle/caches/transforms-4/a0847ed70a3e2ee99235821b45bd5058/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+99            android:authorities="com.example.tp1_dev_mobile.androidx-startup"
+99-->[androidx.emoji2:emoji2:1.3.0] /home/daimsk/.gradle/caches/transforms-4/a0847ed70a3e2ee99235821b45bd5058/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+100            android:exported="false" >
+100-->[androidx.emoji2:emoji2:1.3.0] /home/daimsk/.gradle/caches/transforms-4/a0847ed70a3e2ee99235821b45bd5058/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+101            <meta-data
+101-->[androidx.emoji2:emoji2:1.3.0] /home/daimsk/.gradle/caches/transforms-4/a0847ed70a3e2ee99235821b45bd5058/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+102                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+102-->[androidx.emoji2:emoji2:1.3.0] /home/daimsk/.gradle/caches/transforms-4/a0847ed70a3e2ee99235821b45bd5058/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+103                android:value="androidx.startup" />
+103-->[androidx.emoji2:emoji2:1.3.0] /home/daimsk/.gradle/caches/transforms-4/a0847ed70a3e2ee99235821b45bd5058/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+104            <meta-data
+104-->[androidx.lifecycle:lifecycle-process:2.8.5] /home/daimsk/.gradle/caches/transforms-4/5131addd84897ad309ddc32c9bde7a99/transformed/lifecycle-process-2.8.5/AndroidManifest.xml:29:13-31:52
+105                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+105-->[androidx.lifecycle:lifecycle-process:2.8.5] /home/daimsk/.gradle/caches/transforms-4/5131addd84897ad309ddc32c9bde7a99/transformed/lifecycle-process-2.8.5/AndroidManifest.xml:30:17-78
+106                android:value="androidx.startup" />
+106-->[androidx.lifecycle:lifecycle-process:2.8.5] /home/daimsk/.gradle/caches/transforms-4/5131addd84897ad309ddc32c9bde7a99/transformed/lifecycle-process-2.8.5/AndroidManifest.xml:31:17-49
+107            <meta-data
+107-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/daimsk/.gradle/caches/transforms-4/1641379f8fabce94d9aa639447b94e88/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+108                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+108-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/daimsk/.gradle/caches/transforms-4/1641379f8fabce94d9aa639447b94e88/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+109                android:value="androidx.startup" />
+109-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/daimsk/.gradle/caches/transforms-4/1641379f8fabce94d9aa639447b94e88/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+110        </provider>
+111
+112        <receiver
+112-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/daimsk/.gradle/caches/transforms-4/1641379f8fabce94d9aa639447b94e88/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+113            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+113-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/daimsk/.gradle/caches/transforms-4/1641379f8fabce94d9aa639447b94e88/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+114            android:directBootAware="false"
+114-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/daimsk/.gradle/caches/transforms-4/1641379f8fabce94d9aa639447b94e88/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+115            android:enabled="true"
+115-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/daimsk/.gradle/caches/transforms-4/1641379f8fabce94d9aa639447b94e88/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+116            android:exported="true"
+116-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/daimsk/.gradle/caches/transforms-4/1641379f8fabce94d9aa639447b94e88/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+117            android:permission="android.permission.DUMP" >
+117-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/daimsk/.gradle/caches/transforms-4/1641379f8fabce94d9aa639447b94e88/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+118            <intent-filter>
+118-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/daimsk/.gradle/caches/transforms-4/1641379f8fabce94d9aa639447b94e88/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+119                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+119-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/daimsk/.gradle/caches/transforms-4/1641379f8fabce94d9aa639447b94e88/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+119-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/daimsk/.gradle/caches/transforms-4/1641379f8fabce94d9aa639447b94e88/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+120            </intent-filter>
+121            <intent-filter>
+121-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/daimsk/.gradle/caches/transforms-4/1641379f8fabce94d9aa639447b94e88/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+122                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+122-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/daimsk/.gradle/caches/transforms-4/1641379f8fabce94d9aa639447b94e88/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+122-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/daimsk/.gradle/caches/transforms-4/1641379f8fabce94d9aa639447b94e88/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+123            </intent-filter>
+124            <intent-filter>
+124-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/daimsk/.gradle/caches/transforms-4/1641379f8fabce94d9aa639447b94e88/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+125                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+125-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/daimsk/.gradle/caches/transforms-4/1641379f8fabce94d9aa639447b94e88/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+125-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/daimsk/.gradle/caches/transforms-4/1641379f8fabce94d9aa639447b94e88/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+126            </intent-filter>
+127            <intent-filter>
+127-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/daimsk/.gradle/caches/transforms-4/1641379f8fabce94d9aa639447b94e88/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+128                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+128-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/daimsk/.gradle/caches/transforms-4/1641379f8fabce94d9aa639447b94e88/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+128-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/daimsk/.gradle/caches/transforms-4/1641379f8fabce94d9aa639447b94e88/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+129            </intent-filter>
+130        </receiver>
+131    </application>
+132
+133</manifest>

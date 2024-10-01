@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/bleu_400"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/homepage"
+            android:layout_width="290dp"
+            android:layout_height="57dp"
+            android:layout_gravity="center"
+            android:layout_weight="4"
+            android:drawableLeft="@drawable/ic_home_32"
+            android:fontFamily="@font/playpensanssemibold"
+            android:gravity="center_vertical"
+            android:text="HomePage"
+            android:textColor="@color/white"
+            android:textSize="26sp" />
+
+        <ImageView
+            android:id="@+id/logoimage"
+            android:layout_width="wrap_content"
+            android:layout_height="41dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="12dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            app:srcCompat="@drawable/ic_contacts_32" />
+
+    </LinearLayout>
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/loginImage"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:src="@drawable/sigl_anime_final"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"/>
+
+
+    <TextView
+        android:id="@+id/TextHello"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50sp"
+        android:fontFamily="@font/playpensanssemibold"
+        android:gravity="center_horizontal"
+        android:text="Bienvenue sur votre espace etudiant personnel"
+        android:textColor="@color/gray_dark_600"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_conversion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25sp"
+        android:background="@drawable/btn_hover"
+        android:fontFamily="@font/playpensanssemibold"
+        android:text="Conversion"
+        android:textColor="@color/white"
+        android:layout_marginHorizontal="20sp"/>
+
+    <Button
+        android:id="@+id/btn_historique"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25sp"
+        android:background="@drawable/btn_hover"
+        android:fontFamily="@font/playpensanssemibold"
+        android:text="Historique"
+        android:textColor="@color/white"
+        android:layout_marginHorizontal="20sp"/>
+
+    <Button
+        android:id="@+id/btn_retour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quitter"
+        android:background="@drawable/btn_hover"
+        android:textColor="@color/white"
+        android:fontFamily="@font/playpensanssemibold"
+        android:layout_marginHorizontal="20sp"
+        />
+
+    </LinearLayout>
+
+</LinearLayout>
