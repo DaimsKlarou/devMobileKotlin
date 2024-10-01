@@ -31,10 +31,6 @@ class ContactActivity : ComponentActivity() {
         imageView.setImageResource(R.drawable.ic_arrow_32)
 
         listContactItem = findViewById(R.id.listContact)
-//
-//        listContactItem.setOnClickListener(new onItemClickListener {
-//
-//        })
 
         listContactItem.onItemClickListener = OnItemClickListener { parent, view, position, id ->
             when (position) {
@@ -57,10 +53,7 @@ class ContactActivity : ComponentActivity() {
                     }
 
                 3 ->
-                    // Action pour le quatrième item
-                    Intent(this, HomeActivity::class.java).also {
-                        startActivity(it)
-                    }
+                    db.clearContactsTable()
 
                 else ->                 // Action pour tout autre item si nécessaire
                     Toast.makeText(applicationContext, "Autre item cliqué", Toast.LENGTH_SHORT)

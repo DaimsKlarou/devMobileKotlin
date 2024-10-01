@@ -91,12 +91,15 @@ class MainActivity : ComponentActivity() {
         val name = getName()
         val firstName = getPrenoms()
 
-        if (validateInputs(name, firstName)) {
-            showDialog(name, firstName)
-            onCancelButtonClick()
-        } else {
-            showErrorMessage()
-        }
+//        if (validateInputs(name, firstName)) {
+//            showDialog(name, firstName)
+//            onCancelButtonClick()
+//        } else {
+//            showErrorMessage()
+//        }
+
+        showDialog(name, firstName)
+        onCancelButtonClick()
     }
 
     // Gérer les événements du clic pour le bouton Annuler

@@ -196,15 +196,14 @@ class SiglDB (
         return result > 0
     }
 
+    fun clearContactsTable(): Boolean {
+        val db = this.writableDatabase
+         val result = db.delete(CONTACT_TABLE_NAME, null,null)
+        db.close()
 
-//    fun clearContactsTable(): Boolean {
-//        val db = this.writableDatabase
-//         val result = db?.delete(CONTACT_TABLE_NAME, null,null)
-//        db.close()
-//
-//        Log.d("Database", "Clearing contacts table with ID: $result")
-//        return result > 0
-//    }
+        Log.d("SiglDB", "Clearing contacts table with ID: $result")
+        return result > 0
+    }
 
 
     companion object{

@@ -66,9 +66,10 @@ class EditContact : ComponentActivity() {
             prenoms.setText(contact.prenoms)
             numero.setText(contact.numero)
             profession.setText(contact.profession)
+
             // Afficher l'image du contact
-            if (contact.image.isNotEmpty()) {
-                val bitmap = getBitmapFromByteArray(contact.image)
+            if (contact.image.size > 1) {
+                bitmap = getBitmapFromByteArray(contact.image)
                 contactImage.setImageBitmap(bitmap)
             } else {
                 contactImage.setImageResource(R.drawable.logo)
@@ -83,7 +84,7 @@ class EditContact : ComponentActivity() {
 
         btnValider.setOnClickListener {
             if (name.text.isNotEmpty() && prenoms.text.isNotEmpty() && numero.text.isNotEmpty() && profession.text.isNotEmpty()){
-                Log.d("EditActivity", "Updating contact with ID: $contactId")
+
                 val contactEdit = Contact(
                     name.text.toString(),
                     prenoms.text.toString(),
@@ -92,6 +93,7 @@ class EditContact : ComponentActivity() {
                     contactId,
                     getBytes(bitmap))
 
+                Log.d("EditActivity", "Updating contact with ID: $contactId")
                 val result = db.updateContact(contactEdit)
 
                 if (result){
@@ -118,7 +120,7 @@ class EditContact : ComponentActivity() {
 
     }
 
-    private fun getBitmapFromByteArray(image: ByteArray): Bitmap? {
+    private fun getBitmapFromByteArray(image: ByteArray): Bitmap {
         val bitmap = BitmapFactory.decodeByteArray(image, 0, image.size)
         return bitmap
     }

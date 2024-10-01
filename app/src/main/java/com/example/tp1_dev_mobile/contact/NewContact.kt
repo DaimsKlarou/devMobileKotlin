@@ -29,6 +29,7 @@ class NewContact : ComponentActivity() {
     private lateinit var btnValider : Button
     private lateinit var btnAnnuler : Button
     private lateinit var bitmap : Bitmap
+    private var isChecked = false
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -51,6 +52,7 @@ class NewContact : ComponentActivity() {
             val inputStream = contentResolver.openInputStream(uri!!)
             bitmap = BitmapFactory.decodeStream(inputStream)
             contactImage.setImageBitmap(bitmap)
+            isChecked = true
         }
 
         contactImage.setOnClickListener {
@@ -67,10 +69,15 @@ class NewContact : ComponentActivity() {
     private fun btnEvent(){
 
         btnValider.setOnClickListener {
-
+            lateinit var image : ByteArray
+            lateinit var contact : Contact
             if(validatedValue()){
-                val image :ByteArray = getBytes(bitmap)
-                val contact = Contact(name = name.text.toString(), prenoms =  prenoms.text.toString(), numero = numero.text.toString(), profession = profession.text.toString(), image = image)
+                if(isChecked){
+                    image = getBytes(bitmap)
+                    contact = Contact(name = name.text.toString(), prenoms =  prenoms.text.toString(), numero = numero.text.toString(), profession = profession.text.toString(), image = image)
+                } else {
+                    contact = Contact(name = name.text.toString(), prenoms =  prenoms.text.toString(), numero = numero.text.toString(), profession = profession.text.toString())
+                }
                 val resultatContact = db.addContact(contact)
 
                 if(resultatContact){
@@ -96,4 +103,5 @@ class NewContact : ComponentActivity() {
         bitmap.compress(Bitmap.CompressFormat.PNG, 0, stream)
         return stream.toByteArray()
     }
+
 }

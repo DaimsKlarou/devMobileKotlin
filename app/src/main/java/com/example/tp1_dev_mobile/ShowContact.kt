@@ -1,6 +1,9 @@
 package com.example.tp1_dev_mobile
 
+import android.annotation.SuppressLint
 import android.content.Intent
+import android.graphics.Bitmap
+import android.graphics.BitmapFactory
 import android.os.Bundle
 import android.widget.ImageView
 import android.widget.TextView
@@ -24,9 +27,11 @@ class ShowContact : ComponentActivity() {
     private lateinit var favorite : TextView
     private lateinit var edite : TextView
     private lateinit var shareContact : TextView
+    private lateinit var contact: Contact
 
     lateinit var db: SiglDB
 
+    @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -43,30 +48,31 @@ class ShowContact : ComponentActivity() {
         edite = findViewById(R.id.edite)
         shareContact = findViewById(R.id.shareContact)
 
-        val contact = intent.getParcelableExtra<Contact>("contact")
-        var isFavorite = false
-        if (contact != null) {
-            nomComplet.text = "${contact.name} ${contact.prenoms}"
-            phone_number.text = contact.numero
-            professionShow.text = contact.profession
-            isFavorite = contact.favorite
+        contact = intent.getParcelableExtra<Contact>("contact")!!
+        nomComplet.text = "${contact.name} ${contact.prenoms}"
+        phone_number.text = contact.numero
+        professionShow.text = contact.profession
+
+        if (contact.favorite){
+            val drawable = ContextCompat.getDrawable(this, R.drawable.favorite_star_32)
+            favorite.setCompoundDrawablesWithIntrinsicBounds(null, drawable, null, null)
+        }
+        if (contact.image.size > 1) {
+            imageView2.setImageBitmap(getBitmapFromByteArray(contact.image))
         }
 
-
-
         favorite.setOnClickListener {
-            if (isFavorite){
+            if (contact.favorite){
                 val drawable = ContextCompat.getDrawable(this, R.drawable.star_outline_32)
                 favorite.setCompoundDrawablesWithIntrinsicBounds(null, drawable, null, null)
-                Toast.makeText(this, "${contact?.name} n'est plus favori", Toast.LENGTH_SHORT).show()
-
-            }else{
+                Toast.makeText(this, "${contact.name} n'est plus favori", Toast.LENGTH_SHORT).show()
+            } else{
                 val drawable = ContextCompat.getDrawable(this, R.drawable.favorite_star_32)
                 favorite.setCompoundDrawablesWithIntrinsicBounds(null, drawable, null, null)
-                Toast.makeText(this, "${contact?.name} est maintenant en favori", Toast.LENGTH_SHORT).show()
-
+                Toast.makeText(this, "${contact.name} est maintenant en favori", Toast.LENGTH_SHORT).show()
             }
-            contact?.favorite = !isFavorite
+            contact.favorite = !contact.favorite
+            db.updateContact(contact)
         }
 
         edite.setOnClickListener {
@@ -75,5 +81,10 @@ class ShowContact : ComponentActivity() {
                 startActivity(it)
             }
         }
+    }
+
+    private fun getBitmapFromByteArray(image: ByteArray): Bitmap? {
+        val bitmap = BitmapFactory.decodeByteArray(image, 0, image.size)
+        return bitmap
     }
 }

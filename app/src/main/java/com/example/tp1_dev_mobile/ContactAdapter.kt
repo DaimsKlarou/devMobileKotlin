@@ -51,7 +51,7 @@ class ContactAdapter(
         profession.text = contact.profession
         favoriteContact.setImageResource(if (contact.favorite) R.drawable.ic_heart_check_32 else R.drawable.ic_heart_plus_32)
 
-        if (contact.image.isNotEmpty()) {
+        if (contact.image.size > 1) {
             val bitmap = getBitmapFromByteArray(contact.image)
             contactImage.setImageBitmap(bitmap)
         } else {
@@ -93,7 +93,6 @@ class ContactAdapter(
         }
 
         deleteContact.setOnClickListener {
-
             val builder = AlertDialog.Builder(mContext)
             builder.setTitle("Delete contact")
             builder.setMessage("Êtes-vous sûr de vouloir supprimer ${contact.name} ?")
@@ -102,10 +101,6 @@ class ContactAdapter(
                 db.deleteContact(contact)
                 values = values.filterIndexed { index, _ -> index != position }
                 Toast.makeText(mContext, "${contact.name} a été supprimé", Toast.LENGTH_SHORT).show()
-                Intent(mContext, HomeActivity::class.java).also {
-                    it.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
-                    mContext.startActivity(it)
-                }
                 notifyDataSetChanged()
             }
 
@@ -131,5 +126,8 @@ class ContactAdapter(
         return bitmap
     }
 
+    fun getItems(): List<Contact> {
+        return values
+    }
 
 }

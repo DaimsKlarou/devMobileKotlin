@@ -2,9 +2,14 @@ package com.example.tp1_dev_mobile.contact
 
 import android.content.Intent
 import android.os.Bundle
+import android.text.Editable
+import android.text.TextWatcher
 import android.util.Log
+import android.view.KeyEvent
+import android.view.SearchEvent
 import android.view.View
 import android.widget.AdapterView
+import android.widget.EditText
 import android.widget.ImageView
 import android.widget.ListView
 import android.widget.Toast
@@ -13,6 +18,7 @@ import androidx.activity.enableEdgeToEdge
 import com.example.tp1_dev_mobile.ContactAdapter
 import com.example.tp1_dev_mobile.HomeActivity
 import com.example.tp1_dev_mobile.R
+import com.example.tp1_dev_mobile.data.Contact
 import com.example.tp1_dev_mobile.db.SiglDB
 
 class AllContact : ComponentActivity() {
@@ -20,6 +26,9 @@ class AllContact : ComponentActivity() {
     private lateinit var addContact : ImageView
     private lateinit var comeBack : ImageView
     private lateinit var settings : ImageView
+    private lateinit var searchEvent: EditText
+    private lateinit var contactArray : MutableList<Contact>
+    private lateinit var adapter : ContactAdapter
 
     lateinit var db: SiglDB
 
@@ -40,6 +49,8 @@ class AllContact : ComponentActivity() {
         addContact = findViewById(R.id.addContact)
         addContact.setImageResource(R.drawable.ic_add_32)
 
+        searchEvent = findViewById(R.id.search)
+
         addContact.setOnClickListener {
             val intent = Intent(this, NewContact::class.java)
             startActivity(intent)
@@ -51,16 +62,60 @@ class AllContact : ComponentActivity() {
             }
         }
 
+        searchEvent.addTextChangedListener(object : TextWatcher {
+            var previousText: String = ""
+            override fun afterTextChanged(s: Editable?) {
+                // On récupère le texte actuel
+                val currentText = s.toString().trim()
+
+                // Si la longueur a diminué, on peut supposer que la touche backspace a été utilisée
+                if (currentText.length < previousText.length) {
+                    deleteSearch(currentText)
+                    Log.d("AllContactActivity", "Suppression d'un caractère")
+                }
+
+                // Sauvegarder le texte actuel comme le "précédent" pour la prochaine comparaison
+                previousText = currentText
+            }
+
+            override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {
+                // Ne rien faire ici
+            }
+
+            override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {
+                // Filtrer la liste à chaque changement de texte
+                val searchText = s.toString().lowercase().trim()
+                filterContacts(searchText)
+            }
+        })
+
         try {
-            val postArray = db.getAllContacts()
-            Log.d("AllContactActivity", "Posts: $postArray")
-            val adapter = ContactAdapter(this, R.layout.item_contact, postArray)
+            contactArray = db.getAllContacts()
+            Log.d("AllContactActivity", "Contacts retrieved: $contactArray")
+            adapter = ContactAdapter(this, R.layout.item_contact, contactArray)
             listContact.adapter = adapter
 
         } catch (e: Exception) {
             Log.e("AllContactActivity", "Error getting contacts", e)
         }
 
+    }
+
+    private fun deleteSearch(currentText: String) {
+        adapter.clear()
+        adapter.addAll(db.getAllContacts())
+
+        filterContacts(currentText)
+    }
+
+    private fun filterContacts(searchText: String) {
+        val filteredList = adapter.getItems().filter { contact ->
+            contact.name.contains(searchText, ignoreCase = true) || contact.prenoms.contains(searchText, ignoreCase = true)
+//            contact.name.lowercase().contains(searchText) || contact.prenoms.lowercase().contains(searchText)
+        }
+        adapter.clear()
+        adapter.addAll(filteredList)
+        adapter.notifyDataSetChanged()
     }
 
 }
